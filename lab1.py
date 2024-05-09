@@ -23,37 +23,36 @@ class Car:
         self.is_engine_on = False
         print(f"The engine of the {self.color} {self.brand} is now off.")
 
-    def zoomzoom(self, distance):
+    def drive(self, distance):
         if (self.is_engine_on):
             self.odometer = distance
-            print(f"You do be zoomin")
+            print(f"The {self.color} {self.brand} is zoomin")
+            print(f"Odometer at {self.odometer}")
         else:
-            print("Engine not on dumbass")
+            print("Engine is not on dumbass")
 
 
 # Add another property to the Car class called "odometer".
 # This property should be initialised to 0.
 
-
 # Create two Car objects. One should be a red Toyota and the other a blue Ford.
 
-Toyota = Car("Red", "Toyota")
-Ford = Car("Blue", "Ford")
+toyota = Car("Red", "Toyota")
+ford = Car("Blue", "Ford")
 
 # Start the engine of the red Toyota.
-
-Toyota.start_engine()
+"""
+toyota.start_engine()
+ford.start_engine()
+ford.stop_engine()
 
 # Create a method called "drive" that takes a distance as a parameter.
 # The car can only be driven if the engine is on.
 
-
-
 # Attempt to drive both cars 100Km.
 
-Toyota.zoomzoom(100)
-Ford.zoomzoom(100)
-
+toyota.drive(100)
+ford.drive(100)
+"""
 # Print the brand, odometer and colour of both cars.
-
 
