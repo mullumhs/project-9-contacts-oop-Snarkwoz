@@ -41,7 +41,7 @@ toyota = Car("Red", "Toyota")
 ford = Car("Blue", "Ford")
 
 # Start the engine of the red Toyota.
-"""
+
 toyota.start_engine()
 ford.start_engine()
 ford.stop_engine()
@@ -53,6 +53,7 @@ ford.stop_engine()
 
 toyota.drive(100)
 ford.drive(100)
-"""
+
 # Print the brand, odometer and colour of both cars.
 
+print(toyota.odometer, toyota.color)
