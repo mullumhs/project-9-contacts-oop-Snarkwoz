@@ -40,3 +40,4 @@ tyrannasourus_rex = Contact("Rex", "56723592543", "tyrannasourus.rex@iminthejura
 print(f"{jeremy.name}: {jeremy.phone_number}, {jeremy.email}")
 print(f"{tyrannasourus_rex.name}: {tyrannasourus_rex.phone_number}, {tyrannasourus_rex.email}")
 tyrannasourus_rex.check_email()
+print(jeremy.num_of_contacts)
